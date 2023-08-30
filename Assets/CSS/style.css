@@ -7,22 +7,12 @@ background-color: aqua;
 width: 50%;
 margin: 0 auto;} */ 
 
-{margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    border: 1px solid black;
-    } 
-
-.parent-container{
-    background-color: aquamarine;
-    display: flex;
-    flex-wrap: wrap;
-}
 Header{
 background-color: rgb(156, 212, 231);
 display: inline-flex;
 flex-wrap: wrap;
 height: max-content;
+width: 100%;
 }
 .header nav{
     padding-top: 15px;
@@ -36,9 +26,25 @@ height: max-content;
     display: inline-flex;
     margin-left: 25px;
 }
+#hero-img {
+    width: 100%;
+}
+.parent-container{
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+}
 .Pre-Work{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
+}
+#Pre-Work-img {
+height: 600px;
+width: 900px;
+}
+#Horiseon-img{
+    height: 300px;
+    width: 250px;
 }
