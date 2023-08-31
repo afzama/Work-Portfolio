@@ -26,6 +26,26 @@ width: 100%;
     display: inline-flex;
     margin-left: 25px;
 }
+.topnav{
+    overflow: hidden;
+    background-color: rgb(156, 212, 231);
+}
+.topnav-right{
+    float: left;
+}
+.topnav a{
+    text-align: left;
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover{
+    background-color: rgb(156, 212, 231);
+    color: black;
+}
+.topnav a.active {
+    color: white;
+}
 #hero-img {
     width: 100%;
 }
@@ -34,8 +54,9 @@ width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
-.my-parent-class{
+div{
     display: flex;
+    justify-content: center;
 }
 .Pre-Work{
     display: flex;
