@@ -47,4 +47,10 @@ width: 900px;
 #Horiseon-img{
     height: 300px;
     width: 250px;
+    float: left;
+}
+#Css-img {
+    height: 300px;
+    width: 250px;
+    float: right;
 }
