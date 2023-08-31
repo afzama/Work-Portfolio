@@ -34,6 +34,9 @@ width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
+.my-parent-class{
+    display: flex;
+}
 .Pre-Work{
     display: flex;
     flex-wrap: wrap;
@@ -55,7 +58,6 @@ width: 900px;
     padding: 20px;
     margin: auto;
     display: block;
-    width: 50%;
 }
 #CSS-img {
     height: 300px;
@@ -64,5 +66,4 @@ width: 900px;
     padding: 20px;
     margin: auto;
     display: block;
-    width: 50%;
 }
