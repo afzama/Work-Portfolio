@@ -31,11 +31,11 @@ width: 100%;
     background-color: rgb(156, 212, 231);
 }
 .topnav-right{
-    float: left;
+    float: right;
 }
 .topnav a{
     text-align: left;
-    float: left;
+    float: right;
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -48,6 +48,9 @@ width: 100%;
 }
 #hero-img {
     width: 100%;
+}
+#subtitle {
+    text-align: right;
 }
 .parent-container{
     background-color: aquamarine;
