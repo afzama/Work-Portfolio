@@ -1,12 +1,3 @@
-/* body {background-color: aqua;}
-
-/* nav {height: 20vh;}
-div {height: 20vh;}
-section {height: 20vh;
-background-color: aqua;
-width: 50%;
-margin: 0 auto;} */ 
-
 Header{
 background-color: rgb(156, 212, 231);
 display: flex;
@@ -55,15 +46,6 @@ width: 100%;
     display: flex;
     justify-content: flex-end;
 }
-.parent-container{
-    background-color: aquamarine;
-    display: flex;
-    flex-wrap: wrap;
-}
-div{
-    display: flex;
-    justify-content: center;
-}
 .card {
     display: flex;
     width: 100%;
@@ -77,39 +59,31 @@ p {
 border-left: 2px solid black;
 padding-left: 50px;
 }
-.Pre-Work{
+.parent-container{
+    background-color: aquamarine;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+.Pre-Work{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
 }
 #Pre-Work-img {
 height: 600px;
-width: 900px;
-display: flex;
-justify-content: flex-end;
 }
 .centered {
     border: 1px solid yellow;
     text-align: center;
 }
-#Horiseon-img{
-    height: 300px;
-    width: 250px;
-    float: left;
-    padding: 20px;
-    margin: auto;
-    display: block;
-    flex-grow: 2;
-    justify-content: flex-end;
-}
-#CSS-img {
-    height: 300px;
-    width: 250px;
-    float: right;
-    padding: 20px;
-    margin: auto;
-    display: block;
-    flex-grow: 2;
-    justify-content: flex-end;
+.Horiseon-project,
+.Flexbox-Project {
+    flex-basis: calc(50% -10px);
+    margin-bottom: 20px;
+    margin-left: 20px;
 }
