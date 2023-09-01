@@ -71,19 +71,29 @@ padding-left: 50px;
 }
 .Pre-Work{
     display: flex;
-    width: 100%;
     flex-direction: column;
+    border-left: 2px solid black;
+    padding-left: 57px;
 }
 #Pre-Work-img {
-height: 600px;
+height: 450px;
 }
 .centered {
     border: 1px solid yellow;
     text-align: center;
 }
-.Horiseon-project,
-.Flexbox-Project {
-    flex-basis: calc(50% -10px);
-    margin-bottom: 20px;
-    margin-left: 20px;
+*{
+box-sizing: border-box;
 }
+  .column {
+    float: left;
+    width: 40%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
